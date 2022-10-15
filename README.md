@@ -68,7 +68,7 @@
 
 
 >
-> ** ```!System.Action``` aslo work instead of ```UnityEvent```.**
+> **```!System.Action``` aslo work instead of ```UnityEvent```.**
 >
 
 **Static Methods:-**
