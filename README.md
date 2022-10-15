@@ -5,6 +5,8 @@
 
 ![DailyReward_Demo](https://user-images.githubusercontent.com/78583049/195974892-01a2efec-b015-4309-b32d-7958232b8525.gif)
 
+![Demo_Pic](https://user-images.githubusercontent.com/78583049/195978876-b1b4a5a6-738e-4550-ab4a-210ca1e54562.png)
+
 ***
 
 # Usage
