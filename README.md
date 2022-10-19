@@ -11,13 +11,13 @@ Unity Daily Reward Implementation Using System DateTime APIS
 
 # References
 
-**Manager**
+### **Manager**
 ![Manager_Ref](https://user-images.githubusercontent.com/78583049/195892469-03ca1823-15f8-4d26-a77f-9e45e9a471ce.jpg)
 
-**Reward Button**
+### **Reward Button**
 ![Reward_ref](https://user-images.githubusercontent.com/78583049/195892951-3045e0b4-9b66-4617-b846-c7971413f24f.jpg)
 
-**2X Reward Button**
+### **2X Reward Button**
 ![TwoXReward_Ref](https://user-images.githubusercontent.com/78583049/195893083-6c8450b0-d916-44a8-9cae-5e9ebf715f59.jpg)
 
 
