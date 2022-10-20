@@ -8,6 +8,8 @@ namespace Randoms.DailyReward.Internals
         static      readonly string      dailyRewardStoreKey = "RANDOMS_DAILYREWARD_STORE";
         static      DailyRewardStore     store;
         static      bool                 isInitialized;
+
+        
         static DailyRewardInternal ()
         {
             // cache values
@@ -27,6 +29,8 @@ namespace Randoms.DailyReward.Internals
             }
             DailyRewardInternal.UpdateStore ();
         }
+
+
         /// <summary>
         /// Return DailyReward Status 
         /// Item1: canClaim , Item2: currentDay 
@@ -48,6 +52,8 @@ namespace Randoms.DailyReward.Internals
             }
             return (false, DailyRewardStatus.UNCLAIMED_AVAILABLE); // intentionally return false to prevent warning
         }
+
+
         /// <summary>
         /// Claim Daily Reward
         /// </summary>
@@ -66,6 +72,8 @@ namespace Randoms.DailyReward.Internals
             refreshUI ();
             isInitialized = false;
         }
+
+
         /// <summary>
         /// Returns time left for next reward
         /// </summary>
@@ -83,6 +91,8 @@ namespace Randoms.DailyReward.Internals
                 "AVAILABLE"
             ); 
         }
+
+
         /// <summary>
         /// Returns can Claim today reward
         /// </summary>
@@ -91,6 +101,8 @@ namespace Randoms.DailyReward.Internals
             UpdateStore ();
             return store.canClaimReward;
         }        
+
+
         /// <summary>
         /// Updates Store Value WRT Time Span
         /// </summary>

@@ -11,7 +11,7 @@ namespace Randoms.DailyReward
     {
         
         [SerializeField] private Text timeCounterText;
-        public static DailyRewardManager Instance {get; private set;}
+        public static DailyRewardManager Instance { get; private set; }
         private bool isInitialized = false;
         private bool canRefreshUI  = true;
         private DailyRewardBtn activeBtn;
