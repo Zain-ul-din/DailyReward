@@ -1,19 +1,21 @@
 # DailyReward
 Unity Daily Reward Implementation Using System DateTime APIS
 
-**DEMO:-**
+# DEMO:-
 
 ![DailyReward_Demo](https://user-images.githubusercontent.com/78583049/195974892-01a2efec-b015-4309-b32d-7958232b8525.gif)
 
 ***
 
-**USAGE:-**
+# USAGE:-
 
 * Attach ```DailyRewardBtn.cs``` on each button and assign day in inspector.
 
 * Attach ```DailyRewardBtn.cs``` anywhere in scene and assign ```Timer Text```.
 
 * Give Reward on `Btn Click`
+
+---
 
 # References
 
@@ -29,5 +31,49 @@ Unity Daily Reward Implementation Using System DateTime APIS
 ### **2X Reward Button**
 ![TwoXReward_Ref](https://user-images.githubusercontent.com/78583049/195893083-6c8450b0-d916-44a8-9cae-5e9ebf715f59.jpg)
 
+---
+
+# Docs
+
+
+### ```DailyRewardManager```
+     
+**Public Methods:-**
+
+  ```CollectReward ()``` Invokes ```DailyRewardBtn.onRewardCollect``` event of active button.
+
+  ```Collect2XReward ()``` Invokes ```DailyRewardBtn.on2XRewardCollect``` event of active button.
+
+**Static Methods:-**
+
+  ```DailyRewardManager Instance``` Readonly
+
+---
+
+### ```DailyRewardBtn```
+
+**Public Methods:-**
+
+```UnityEvent     OnClaimState```
+
+```UnityEvent     OnClaimedState```
+
+```UnityEvent     OnClaimUnAvailableState```
+
+```UnityEvent     onRewardCollect```
+
+```UnityEvent     on2XRewardCollect```
+
+```UnityEvent     onClick```
+
+
+>
+> **!```System.Action``` aslo work instead of ```UnityEvent```.**
+>
+**Static Methods:-**
+
+```List <DailyRewardBtn> dailyRewardBtns``` static list to acess all buttons
+
+---
 
 [Report Bug Here!](https://github.com/Zain-ul-din/DailyReward/issues)
