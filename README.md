@@ -3,6 +3,8 @@ Unity Daily Reward Implementation Using System DateTime APIS
 
 **DEMO:-**
 
+![DailyReward_Demo](https://user-images.githubusercontent.com/78583049/195974892-01a2efec-b015-4309-b32d-7958232b8525.gif)
+
 ***
 
 **USAGE:-**
@@ -18,7 +20,7 @@ Unity Daily Reward Implementation Using System DateTime APIS
 ### **Manager**
 ![Manager_Ref](https://user-images.githubusercontent.com/78583049/195892469-03ca1823-15f8-4d26-a77f-9e45e9a471ce.jpg)
 
-### ***DailyReward Btn**
+### **DailyReward Btn**
 ![daily_rewardbtn_ref](https://user-images.githubusercontent.com/78583049/195967242-9bde2064-2957-4b56-8837-ec5dd332be68.jpg)
 
 ### **Reward Button**
