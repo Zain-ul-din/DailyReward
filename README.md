@@ -1,13 +1,13 @@
 # DailyReward
 Unity Daily Reward Implementation Using System DateTime APIS
 
-# DEMO:-
+# DEMO
 
 ![DailyReward_Demo](https://user-images.githubusercontent.com/78583049/195974892-01a2efec-b015-4309-b32d-7958232b8525.gif)
 
 ***
 
-# USAGE:-
+# USAGE
 
 * Attach ```DailyRewardBtn.cs``` on each button and assign day in inspector.
 
@@ -15,7 +15,7 @@ Unity Daily Reward Implementation Using System DateTime APIS
 
 * Give Reward on `Btn Click`
 
----
+***
 
 # References
 
@@ -31,7 +31,7 @@ Unity Daily Reward Implementation Using System DateTime APIS
 ### **2X Reward Button**
 ![TwoXReward_Ref](https://user-images.githubusercontent.com/78583049/195893083-6c8450b0-d916-44a8-9cae-5e9ebf715f59.jpg)
 
----
+***
 
 # Docs
 
@@ -48,7 +48,7 @@ Unity Daily Reward Implementation Using System DateTime APIS
 
   ```DailyRewardManager Instance``` Readonly
 
----
+***
 
 ### ```DailyRewardBtn```
 
@@ -68,12 +68,13 @@ Unity Daily Reward Implementation Using System DateTime APIS
 
 
 >
-> **!```System.Action``` aslo work instead of ```UnityEvent```.**
+> ** ```!System.Action``` aslo work instead of ```UnityEvent```.**
 >
+
 **Static Methods:-**
 
 ```List <DailyRewardBtn> dailyRewardBtns``` static list to acess all buttons
 
----
+***
 
 [Report Bug Here!](https://github.com/Zain-ul-din/DailyReward/issues)
