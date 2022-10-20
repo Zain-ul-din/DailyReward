@@ -77,4 +77,5 @@
 
 ***
 
+[Want to Contribute?](https://github.com/Zain-ul-din/DailyReward/blob/master/Scripts/Internal/DailyRewardInternal.cs)
 [Report Bug Here!](https://github.com/Zain-ul-din/DailyReward/issues)
